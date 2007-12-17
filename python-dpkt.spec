@@ -7,7 +7,6 @@ Group:		Development/Python
 URL:		http://monkey.org/~dugsong/dpkt/
 Source0:	http://monkey.org/~dugsong/dpkt/dpkt-%{version}.tar.bz2
 BuildRequires:	python-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Fast, simple packet creation and parsing

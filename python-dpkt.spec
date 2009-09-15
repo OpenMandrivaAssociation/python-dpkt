@@ -1,7 +1,7 @@
 Summary:	Fast, simple packet creation and parsing
 Name:		python-dpkt
 Version:	1.4
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	BSD
 Group:		Development/Python
 URL:		http://monkey.org/~dugsong/dpkt/

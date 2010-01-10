@@ -1,20 +1,21 @@
 Summary:	Fast, simple packet creation and parsing
 Name:		python-dpkt
-Version:	1.4
-Release:	%mkrel 8
+Version:	1.6
+Release:	%mkrel 1
 License:	BSD
 Group:		Development/Python
-URL:		http://monkey.org/~dugsong/dpkt/
-Source0:	http://monkey.org/~dugsong/dpkt/dpkt-%{version}.tar.bz2
+URL:		http://code.google.com/p/dpkt/
+Source0:	http://dpkt.googlecode.com/files/dpkt-%{version}.tar.gz
+Patch0:     dpkt-1.6-fix-python2.6.patch
 BuildRequires:	python-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Fast, simple packet creation and parsing
 
 %prep
-
 %setup -q -n dpkt-%{version}
+%patch0 -p 0
 
 %build
 CFLAGS="%{optflags}" python setup.py build

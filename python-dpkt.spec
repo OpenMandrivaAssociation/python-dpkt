@@ -1,7 +1,7 @@
 Summary:	Fast, simple packet creation and parsing
 Name:		python-dpkt
 Version:	1.7
-Release:	3
+Release:	4
 License:	BSD
 Group:		Development/Python
 URL:		http://code.google.com/p/dpkt/

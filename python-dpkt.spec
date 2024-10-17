@@ -4,7 +4,7 @@ Version:	1.7
 Release:	4
 License:	BSD
 Group:		Development/Python
-URL:		http://code.google.com/p/dpkt/
+URL:		https://code.google.com/p/dpkt/
 Source0:	http://dpkt.googlecode.com/files/dpkt-%{version}.tar.gz
 BuildRequires:	python-devel
 
